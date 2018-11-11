@@ -6,6 +6,7 @@
     <PackageId>SZT.HealthCheckMvc</PackageId>
     <PackageVersion>0.0.1</PackageVersion>
     <Authors>Christopher Tobin</Authors>
+    <Description>Health check functionality for .NET Core proejcts</Description>
   </PropertyGroup>
 
   <ItemGroup>
