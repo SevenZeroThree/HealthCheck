@@ -2,7 +2,6 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
-    <PackOnBuild>true</PackOnBuild>
     <PackageId>SZT.HealthCheckMvc</PackageId>
     <PackageVersion>0.0.1</PackageVersion>
     <Authors>Christopher Tobin</Authors>
