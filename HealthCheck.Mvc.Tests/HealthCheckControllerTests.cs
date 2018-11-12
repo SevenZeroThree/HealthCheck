@@ -6,7 +6,7 @@ namespace HealthCheck.Mvc.Tests
 {
     public class HealthCheckControllerTests
     {
-        private HealthCheckController _controller;
+        private readonly HealthCheckController _controller;
 
         public HealthCheckControllerTests()
         {
