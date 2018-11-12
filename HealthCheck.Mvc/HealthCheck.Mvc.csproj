@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <PackageId>SZT.HealthCheck.Mvc</PackageId>
-    <PackageVersion>0.0.1</PackageVersion>
+    <PackageVersion>0.2.0</PackageVersion>
     <Authors>Christopher Tobin</Authors>
     <Description>Health check functionality for .NET Core proejcts</Description>
   </PropertyGroup>
