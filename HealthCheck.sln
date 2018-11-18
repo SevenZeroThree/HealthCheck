@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthCheck.Sample.WebApi",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthCheck.Mvc.Tests", "HealthCheck.Mvc.Tests\HealthCheck.Mvc.Tests.csproj", "{B678BA55-2F2D-4454-B3F9-481B6E9F1708}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SZT.HealthCheck.Razor", "SZT.HealthCheck.Razor\SZT.HealthCheck.Razor.csproj", "{2109C6A5-D4FC-432B-B0E0-78F2E17B7DC2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{B678BA55-2F2D-4454-B3F9-481B6E9F1708}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B678BA55-2F2D-4454-B3F9-481B6E9F1708}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B678BA55-2F2D-4454-B3F9-481B6E9F1708}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2109C6A5-D4FC-432B-B0E0-78F2E17B7DC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2109C6A5-D4FC-432B-B0E0-78F2E17B7DC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2109C6A5-D4FC-432B-B0E0-78F2E17B7DC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2109C6A5-D4FC-432B-B0E0-78F2E17B7DC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{BEBD75AA-DCB0-455B-ADA3-A315E607D9AA} = {9290A5DB-AEE3-4A97-B6C3-9E8A83BC4997}

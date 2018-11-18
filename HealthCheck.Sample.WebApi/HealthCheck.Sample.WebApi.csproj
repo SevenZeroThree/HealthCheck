@@ -13,6 +13,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\HealthCheck.Mvc\HealthCheck.Mvc.csproj" />
+    <ProjectReference Include="..\SZT.HealthCheck.Razor\SZT.HealthCheck.Razor.csproj" />
   </ItemGroup>
 </Project>
