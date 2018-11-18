@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <PackageProjectUrl>https://github.com/SevenZeroThree/HealthCheck</PackageProjectUrl>
+    <PackageProjectUrl>https://sevenzerothree.github.io/HealthCheck/</PackageProjectUrl>
     <RepositoryUrl>https://github.com/SevenZeroThree/HealthCheck</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>Health Check</PackageTags>
