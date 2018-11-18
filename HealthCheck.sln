@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SZT.HealthCheck.Razor", "SZ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SZT.HealthCheck.Razor.Tests", "SZT.HealthCheck.Razor.Tests\SZT.HealthCheck.Razor.Tests.csproj", "{9DB1EBE0-34AF-4C89-BB9C-7FBD518E7885}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SZT.HealthCheck.Razor.FunctionalTests", "SZT.HealthCheck.Razor.FunctionalTests\SZT.HealthCheck.Razor.FunctionalTests.csproj", "{0BF5EA2C-A91D-4D84-B40D-B4CD0CCB164B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{9DB1EBE0-34AF-4C89-BB9C-7FBD518E7885}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DB1EBE0-34AF-4C89-BB9C-7FBD518E7885}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DB1EBE0-34AF-4C89-BB9C-7FBD518E7885}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BF5EA2C-A91D-4D84-B40D-B4CD0CCB164B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BF5EA2C-A91D-4D84-B40D-B4CD0CCB164B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BF5EA2C-A91D-4D84-B40D-B4CD0CCB164B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BF5EA2C-A91D-4D84-B40D-B4CD0CCB164B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{BEBD75AA-DCB0-455B-ADA3-A315E607D9AA} = {9290A5DB-AEE3-4A97-B6C3-9E8A83BC4997}
