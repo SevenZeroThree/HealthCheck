@@ -1,13 +1,9 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthCheck.Mvc", "HealthCheck.Mvc\HealthCheck.Mvc.csproj", "{834325D0-FF4C-474D-9EE2-FA45EB0CC5D2}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sample", "Sample", "{9290A5DB-AEE3-4A97-B6C3-9E8A83BC4997}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthCheck.Sample.WebApi", "HealthCheck.Sample.WebApi\HealthCheck.Sample.WebApi.csproj", "{BEBD75AA-DCB0-455B-ADA3-A315E607D9AA}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthCheck.Mvc.Tests", "HealthCheck.Mvc.Tests\HealthCheck.Mvc.Tests.csproj", "{B678BA55-2F2D-4454-B3F9-481B6E9F1708}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SZT.HealthCheck.Razor", "SZT.HealthCheck.Razor\SZT.HealthCheck.Razor.csproj", "{2109C6A5-D4FC-432B-B0E0-78F2E17B7DC2}"
 EndProject
@@ -17,18 +13,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{834325D0-FF4C-474D-9EE2-FA45EB0CC5D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{834325D0-FF4C-474D-9EE2-FA45EB0CC5D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{834325D0-FF4C-474D-9EE2-FA45EB0CC5D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{834325D0-FF4C-474D-9EE2-FA45EB0CC5D2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BEBD75AA-DCB0-455B-ADA3-A315E607D9AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BEBD75AA-DCB0-455B-ADA3-A315E607D9AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEBD75AA-DCB0-455B-ADA3-A315E607D9AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BEBD75AA-DCB0-455B-ADA3-A315E607D9AA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B678BA55-2F2D-4454-B3F9-481B6E9F1708}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B678BA55-2F2D-4454-B3F9-481B6E9F1708}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B678BA55-2F2D-4454-B3F9-481B6E9F1708}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B678BA55-2F2D-4454-B3F9-481B6E9F1708}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2109C6A5-D4FC-432B-B0E0-78F2E17B7DC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2109C6A5-D4FC-432B-B0E0-78F2E17B7DC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2109C6A5-D4FC-432B-B0E0-78F2E17B7DC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
