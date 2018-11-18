@@ -2,7 +2,6 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <PackOnBuild>true</PackOnBuild>
     <PackageProjectUrl>https://github.com/SevenZeroThree/HealthCheck</PackageProjectUrl>
     <PackageTags>Health Check</PackageTags>
     <Description>Health check functionality for ASP.NET Mvc and Web Api projects</Description>
