@@ -10,5 +10,17 @@ namespace SZT.HealthCheck.Razor
         {
             return View();
         }
+
+        [Route("Health")]
+        [Consumes("application/json")]
+        [Produces("application/json")]
+        public IActionResult GetJson()
+        {
+            var response = new {
+                Status = "ONLINE",
+                Date = DateTime.Now
+            };
+            return Ok(response);
+        }
     }
 }
