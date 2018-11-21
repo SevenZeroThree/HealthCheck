@@ -14,6 +14,16 @@ ONLINE
 
 ```
 
-## Upcoming Features
+## Releases
 
-[Rename health action - \#1](https://github.com/SevenZeroThree/HealthCheck/issues/1)
+### Latest
+
+- [0.1.4](https://www.nuget.org/packages/SZT.HealthCheck.Razor/)
+
+### Prior Releases
+
+- [0.1.3](https://www.nuget.org/packages/SZT.HealthCheck.Razor/0.1.3)
+
+### Unreleased Features
+
+- [Rename health action - \#1](https://github.com/SevenZeroThree/HealthCheck/issues/1)
