@@ -16,4 +16,4 @@ ONLINE
 
 ## Upcoming Features
 
-sevenzerothree/healthcheck#1
+[Rename health action - \#1](https://github.com/SevenZeroThree/HealthCheck/issues/1)
