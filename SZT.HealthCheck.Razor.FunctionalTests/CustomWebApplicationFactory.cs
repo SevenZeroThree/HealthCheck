@@ -11,8 +11,10 @@ namespace SZT.HealthCheck.Razor.FunctionalTests
     {
         protected override IWebHostBuilder CreateWebHostBuilder()
         {
-            return WebHost.CreateDefaultBuilder()
-                .UseStartup<Startup>();
+            var host = new WebHostBuilder();
+            host.UseStartup<Startup>();
+
+            return host;
         }
     }
 }
