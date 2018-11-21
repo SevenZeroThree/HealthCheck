@@ -15,10 +15,10 @@ namespace SZT.HealthCheck.Razor.Tests
         }
 
         [Fact]
-        public void Get_Has_RouteAttribute()
+        public void Index_Has_RouteAttribute()
         {
             // Arrage
-            var method = _controller.GetType().GetMethod("Get");
+            var method = _controller.GetType().GetMethod("Index");
 
             // Act
             var attribute = (RouteAttribute)method.GetCustomAttributes(typeof(RouteAttribute), false).FirstOrDefault();
@@ -28,12 +28,12 @@ namespace SZT.HealthCheck.Razor.Tests
         }
 
         [Fact]
-        public void Get_Returns_View()
+        public void Index_Returns_View()
         {
             // Arrange
 
             // Act
-            var result = _controller.Get();
+            var result = _controller.Index();
 
             // Assert
             var viewResult = Assert.IsType<ViewResult>(result);
