@@ -6,7 +6,7 @@ namespace SZT.HealthCheck.Razor
     public class HealthCheckController : Controller
     {
         [Route("Health")]
-        public IActionResult Get()
+        public IActionResult Index()
         {
             return View();
         }
