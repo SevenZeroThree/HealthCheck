@@ -1,1 +1,6 @@
 theme: jekyll-theme-slate
+
+title: SZT.HealthCheck.Razor
+description: A NuGet package that provides HealthCheck functionality for .NET Core applications
+
+show_downloads: false
