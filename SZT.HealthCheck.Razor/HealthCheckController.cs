@@ -6,6 +6,7 @@ namespace SZT.HealthCheck.Razor
     public class HealthCheckController : Controller
     {
         [Route("Health")]
+        [HttpGet]
         public IActionResult Index()
         {
             return View();
@@ -14,13 +15,16 @@ namespace SZT.HealthCheck.Razor
         [Route("Health")]
         [Consumes("application/json")]
         [Produces("application/json")]
-        public IActionResult GetJson()
+        [HttpGet]
+        [HttpPost]
+        public ActionResult<HealthModel> GetJson()
         {
-            var response = new {
+            var response = new HealthModel 
+            {
                 Status = "ONLINE",
                 Date = DateTime.Now
             };
-            return Ok(response);
+            return response;
         }
     }
 }
